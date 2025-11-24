@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: demo_sources
+    schema: training_dbt
+    tables:
+      - name: demo
+      - name: demo_bank
+        
